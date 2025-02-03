@@ -51,9 +51,10 @@ int main()
 		perror("ERROR reading from socket");
 	}
 	
-	printf("String : %s",str);
+	printf("Message from server: %s",str);
 
 	close(sockfd);
 	
 	return 0;
 }
+
